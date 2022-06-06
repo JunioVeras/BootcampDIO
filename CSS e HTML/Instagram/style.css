@@ -1,0 +1,155 @@
+body
+{
+    font-family: Verdana;
+}
+
+.instagram-wrapper
+{
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /* align-content: center; */
+    flex: 1;
+    flex-shrink: 1;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+
+.instagram-wrapper .instagram-phone
+{
+    max-width: 450px;
+    min-width: 450px;
+    height: auto;
+}
+
+.instagram-wrapper .instagram-phone img
+{
+    max-width: 90%;
+}
+
+.instagram-wrapper .instagram-continue
+{
+    width: 420px;
+    /* max-width: 400px;
+    min-width: 40%; */
+}
+
+.group 
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.group .instagram-logo
+{
+    margin: 50px 100px;
+}
+
+.group .profile-photo img
+{
+    border-radius: 50%;
+}
+
+.group a
+{
+    text-decoration: none;
+    margin-bottom: 30px;
+}
+
+.group .instagram-login
+{
+    margin-top: 30px;
+    background-color: rgb(29, 173, 240);
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.group .instagram-logout
+{
+    color:rgb(29, 173, 240)
+}
+
+#group1
+{
+    border: 1px solid rgb(219, 217, 217);
+    background-color: #fff;
+}
+
+#group2
+{
+    border: 1px solid rgb(219, 217, 217);
+    background-color: #fff;
+}
+
+#group2 p
+{
+    margin-top: 0;
+    padding-top: 0;
+}
+
+#group2 #not1
+{
+    margin-top: 20px;
+    padding-top: 0;
+}
+
+#group2 span
+{
+    color: rgb(6, 121, 175);
+    margin-top: 0;
+    padding-top: 0;
+}
+
+#group3 .download
+{
+    display: flex;
+    flex-direction: row;
+}
+
+#group3 .download .app-download
+{
+    max-width:200px;
+    max-height:66px;
+    width: auto;
+    height: auto;
+}
+
+@media only screen and (max-width: 950px) {
+    .instagram-wrapper .instagram-continue
+    {
+        width: 300px;
+    }
+    .instagram-wrapper .instagram-phone
+    {
+        max-width: 400px;
+        min-width: 400px;
+        height: auto;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .instagram-wrapper .instagram-phone
+    {
+        display: none;
+    }
+    .instagram-wrapper
+    {
+        align-items: center;
+    }
+    .instagram-wrapper .instagram-continue
+    {
+        width: 90%;
+        margin-top: 30px;
+    }
+    #group3 .download .app-download
+    {
+        max-width:153px;
+        max-height:45px;
+        width: auto;
+        height: auto;
+    }
+}
