@@ -1,3 +1,3 @@
 # BootcampDIO
-Diretório do Desafio de Projeto git e github
+Diretório dos desafios do BootcampDIO
 
