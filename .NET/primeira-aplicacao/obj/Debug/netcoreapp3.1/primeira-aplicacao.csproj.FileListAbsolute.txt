@@ -1,0 +1,13 @@
+C:\Users\Junio\BootcampDIO\.NET\primeira-aplicacao\bin\Debug\netcoreapp3.1\primeira-aplicacao.exe
+C:\Users\Junio\BootcampDIO\.NET\primeira-aplicacao\bin\Debug\netcoreapp3.1\primeira-aplicacao.deps.json
+C:\Users\Junio\BootcampDIO\.NET\primeira-aplicacao\bin\Debug\netcoreapp3.1\primeira-aplicacao.runtimeconfig.json
+C:\Users\Junio\BootcampDIO\.NET\primeira-aplicacao\bin\Debug\netcoreapp3.1\primeira-aplicacao.runtimeconfig.dev.json
+C:\Users\Junio\BootcampDIO\.NET\primeira-aplicacao\bin\Debug\netcoreapp3.1\primeira-aplicacao.dll
+C:\Users\Junio\BootcampDIO\.NET\primeira-aplicacao\bin\Debug\netcoreapp3.1\primeira-aplicacao.pdb
+C:\Users\Junio\BootcampDIO\.NET\primeira-aplicacao\obj\Debug\netcoreapp3.1\primeira-aplicacao.csprojAssemblyReference.cache
+C:\Users\Junio\BootcampDIO\.NET\primeira-aplicacao\obj\Debug\netcoreapp3.1\primeira-aplicacao.AssemblyInfoInputs.cache
+C:\Users\Junio\BootcampDIO\.NET\primeira-aplicacao\obj\Debug\netcoreapp3.1\primeira-aplicacao.AssemblyInfo.cs
+C:\Users\Junio\BootcampDIO\.NET\primeira-aplicacao\obj\Debug\netcoreapp3.1\primeira-aplicacao.csproj.CoreCompileInputs.cache
+C:\Users\Junio\BootcampDIO\.NET\primeira-aplicacao\obj\Debug\netcoreapp3.1\primeira-aplicacao.dll
+C:\Users\Junio\BootcampDIO\.NET\primeira-aplicacao\obj\Debug\netcoreapp3.1\primeira-aplicacao.pdb
+C:\Users\Junio\BootcampDIO\.NET\primeira-aplicacao\obj\Debug\netcoreapp3.1\primeira-aplicacao.genruntimeconfig.cache
