@@ -1,0 +1,14 @@
+C:\Users\Junio\BootcampDIO\.NET\series\bin\Debug\netcoreapp3.1\DIO.Series.exe
+C:\Users\Junio\BootcampDIO\.NET\series\bin\Debug\netcoreapp3.1\DIO.Series.deps.json
+C:\Users\Junio\BootcampDIO\.NET\series\bin\Debug\netcoreapp3.1\DIO.Series.runtimeconfig.json
+C:\Users\Junio\BootcampDIO\.NET\series\bin\Debug\netcoreapp3.1\DIO.Series.runtimeconfig.dev.json
+C:\Users\Junio\BootcampDIO\.NET\series\bin\Debug\netcoreapp3.1\DIO.Series.dll
+C:\Users\Junio\BootcampDIO\.NET\series\bin\Debug\netcoreapp3.1\DIO.Series.pdb
+C:\Users\Junio\BootcampDIO\.NET\series\obj\Debug\netcoreapp3.1\DIO.Series.csproj.AssemblyReference.cache
+C:\Users\Junio\BootcampDIO\.NET\series\obj\Debug\netcoreapp3.1\DIO.Series.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Junio\BootcampDIO\.NET\series\obj\Debug\netcoreapp3.1\DIO.Series.AssemblyInfoInputs.cache
+C:\Users\Junio\BootcampDIO\.NET\series\obj\Debug\netcoreapp3.1\DIO.Series.AssemblyInfo.cs
+C:\Users\Junio\BootcampDIO\.NET\series\obj\Debug\netcoreapp3.1\DIO.Series.csproj.CoreCompileInputs.cache
+C:\Users\Junio\BootcampDIO\.NET\series\obj\Debug\netcoreapp3.1\DIO.Series.dll
+C:\Users\Junio\BootcampDIO\.NET\series\obj\Debug\netcoreapp3.1\DIO.Series.pdb
+C:\Users\Junio\BootcampDIO\.NET\series\obj\Debug\netcoreapp3.1\DIO.Series.genruntimeconfig.cache
