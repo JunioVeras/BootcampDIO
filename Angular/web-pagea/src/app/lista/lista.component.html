@@ -1,0 +1,17 @@
+<div class="d-flex flex-wrap justify-content-center align-itens-center">
+    <div class="card mx-2 my-2 border-3 border-light" style="width: 18rem;" *ngFor="let l of lista">
+        <img [src]="l.image" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">{{ l.name }}</h5>
+        </div>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item">{{ l.species }}</li>
+          <li class="list-group-item">{{ l.gender }}</li>
+        </ul>
+      </div>
+</div>
+<div class="d-flex justify-content-center">
+  <h2 class="p-2 text-light" (click)="previousPage()" style="text-decoration:none; color: rgb(97, 97, 97); cursor: pointer;"><</h2>
+  <h2 class="p-2 text-light" style="color: rgb(97, 97, 97)">{{ page }}</h2>
+  <h2 class="p-2 text-light" (click)="nextPage()" style="text-decoration:none; color: rgb(97, 97, 97); cursor: pointer;">></h2>
+</div>
