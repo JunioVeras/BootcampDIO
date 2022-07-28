@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { BookService } from 'src/app/services/book-service.service';
+import { RouterModule } from '@angular/router';
 
 @Component({
   selector: 'app-list-book',
@@ -36,6 +37,11 @@ export class ListBookComponent implements OnInit {
   doSearch()
   {
     this.getBooks();
+  }
+
+  returnBook(book: any)
+  {
+    this.bookService.fillBook(book);
   }
 
 }

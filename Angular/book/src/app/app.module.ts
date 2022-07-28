@@ -11,6 +11,7 @@ import { HttpClientModule } from '@angular/common/http';
 import { MatInputModule } from '@angular/material/input';
 import { FormsModule } from '@angular/forms';
 import { CommonModule } from '@angular/common';
+import { CaracBookComponent } from './components/carac-book/carac-book.component';
 
 @NgModule({
   declarations: [
@@ -18,6 +19,7 @@ import { CommonModule } from '@angular/common';
     NavbarComponent,
     FooterComponent,
     ListBookComponent,
+    CaracBookComponent,
   ],
   imports: [
     BrowserModule,

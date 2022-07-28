@@ -4,17 +4,17 @@
 
 <div class="d-flex flex-wrap justify-content-center">
     <div class="card mb-3 mx-2 my-2" style="width: 540px;" *ngFor="let book of booksList">
-        <div class="row g-0" style="height: 100%;">
+        <div *ngIf="book.volumeInfo.imageLinks.thumbnail !== 'undefined'" class="row g-0" style="height: 100%;">
           <div class="col-md-4 d-flex align-items-center justify-content-center bg-light">
-            <img *ngIf="book.volumeInfo.imageLinks.thumbnail !== 'undefined'" [src]="book.volumeInfo.imageLinks.thumbnail" class="img-fluid rounded-start" alt="...">
+            <img [src]="book.volumeInfo.imageLinks.thumbnail" class="img-fluid rounded-start" alt="...">
           </div>
           <div class="col-md-8">
             <div class="card-body">
-              <h3 class="card-title bold"> {{ book.volumeInfo.title }} </h3>
+              <h3 class="card-title bold"><a [routerLink]="['/book/', book.id]" (click)="returnBook(book)" style="text-decoration: none; color: black">{{ book.volumeInfo.title }}</a></h3>
               <p class="card-text">{{ book.volumeInfo.description | slice: 0:150 }}...</p>
               <p class="card-text"><small class="text-muted">{{ book.volumeInfo.authors }}</small></p>
             </div>
           </div>
         </div>
-      </div>
+    </div>
 </div>
