@@ -1,20 +1,32 @@
-<div class="d-flex flex-wrap justify-content-center">
-    <div class="card mb-3 mx-2 my-2 py-1" style="width: 2000px;">
-        <div class="d-flex flex-wrap justify-content-center">
-            <p class="h1">{{ book.volumeInfo.title }}</p>
-        </div>
-    </div>
-    <!-- <input class="form-control my-3 mx-5" [(ngModel)]="search" placeholder="Type to search..." (keyup.enter)="doSearch()"> -->
-</div>
-
-<div class="d-flex flex-wrap justify-content-center align-items-center">
-    <div class="card mb-3 mx-2 my-2 py-3 px-3" style="width: 2000px;">
-        <div class="d-flex flex-column flex-wrap justify-content-center">
-            <p class="mb-3 mx-2 my-2 py-3 px-3">Author: {{ book.volumeInfo.authors }}</p>
-            <div class="col-md-2 d-flex align-items-center justify-content-center bg-light">
-                <img class="mb-3 mx-2 my-2 py-3 px-3" [src]="book.volumeInfo.imageLinks.thumbnail" class="img-fluid rounded-start" alt="...">
+<div style="color: rgb(0, 0, 0);">
+    <div class="d-flex flex-wrap justify-content-center">
+        <div class="card mx-2 my-2 py-1" style="width: 2000px; border-radius: 30px;" >
+            <div class="d-flex flex-wrap justify-content-center">
+                <p class="h1">{{ book.volumeInfo.title }}</p>
             </div>
-            <p class="mb-3 mx-2 my-2 py-3 px-3">{{ book.volumeInfo.description }}</p>
+        </div>
+        <!-- <input class="form-control my-3 mx-5" [(ngModel)]="search" placeholder="Type to search..." (keyup.enter)="doSearch()"> -->
+    </div>
+
+    <div class="d-flex flex-wrap justify-content-center align-items-center">
+        <div class="card mb-3 mx-2 my-2 py-3 px-3" style="width: 2000px; border-radius: 30px;">
+            <div class="row d-flex flex-wrap">
+                <div class="col d-flex flex-column align-items-center">     
+                    <p class="h5 mb-3 my-2 py-3">{{ book.volumeInfo.subtitle }}</p>           
+                    <p align="justify">{{ book.volumeInfo.description }}</p>
+                </div>
+                <div class="col d-flex flex-wrap flex-column align-items-center">
+                    <div class="d-flex justify-content-center mb-5">
+                        <img [src]="book.volumeInfo.imageLinks.thumbnail" alt="...">
+                    </div>
+                    <ul>
+                        <p class="">Author: {{ book.volumeInfo.authors }}</p>
+                        <p class="">Publisher: {{ book.volumeInfo.publisher }}</p>
+                        <p class="">Published Date: {{ book.volumeInfo.publishedDate }}</p>
+                        <p class="">Page Count: {{ book.volumeInfo.pageCount }}</p>
+                    </ul>
+                </div>
+            </div>
         </div>
     </div>
 </div>

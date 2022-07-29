@@ -38,10 +38,4 @@ export class ListBookComponent implements OnInit {
   {
     this.getBooks();
   }
-
-  returnBook(book: any)
-  {
-    this.bookService.fillBook(book);
-  }
-
 }

@@ -1,6 +1,6 @@
 import { Component, OnInit, Input } from '@angular/core';
 import { BookService } from 'src/app/services/book-service.service';
-
+import { ActivatedRoute } from '@angular/router';
 @Component({
   selector: 'app-carac-book',
   templateUrl: './carac-book.component.html',
@@ -8,9 +8,14 @@ import { BookService } from 'src/app/services/book-service.service';
 })
 export class CaracBookComponent implements OnInit {
 
-  constructor(private bookService: BookService) { }
+  routeId: string = ''
 
-  ngOnInit(): void {
+  constructor(private bookService: BookService, private route: ActivatedRoute) { 
+    this.route.params.subscribe(params => this.routeId = params['id']);
+  }
+
+  ngOnInit(): void
+  {
     this.getBook();
   }
 
@@ -18,6 +23,8 @@ export class CaracBookComponent implements OnInit {
 
   getBook()
   {
-      this.book = this.bookService.getBook()
+    this.bookService.getBook(this.routeId).subscribe( 
+      response => { this.book = response.items[0]; console.log(response.items)}
+      )
   }
 }
