@@ -6,8 +6,8 @@ mkdir /ven
 mkdir /sec
 
 groupadd GRP_ADM
-groupadd GRP_ADM
-groupadd GRP_ADM
+groupadd GRP_VEN
+groupadd GRP_SEC
 
 useradd carlos -m -s /bin/bash -p $(openssl passwd senha123) -G GRP_ADM
 useradd maria -m -s /bin/bash -p $(openssl passwd senha123) -G GRP_ADM
